@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "REA-KALTIM-WEBPART",
+    "id": "4d7e7042-d5f5-4e65-b5c7-2ef2b3907e4f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "REA KALTIM WEBPART"
+      },
+      "longDescription": {
+        "default": "REA KALTIM WEBPART FEATURE"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "REAK WEBPART INTRANET",
+        "description": "The feature that activates elements of the reak-webpart solution.",
+        "id": "d359e3ee-608c-4a42-8f4b-57c85e183607",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/reak-webpart.sppkg"
+  }
+}
