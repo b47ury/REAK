@@ -9,6 +9,7 @@ import type { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 //import styles from './GaleriWebPartWebPart.module.scss';
 require('./assets/home.css');
+require('./assets/styleguide.css');
 
 import * as strings from 'GaleriWebPartWebPartStrings';
 
@@ -28,8 +29,8 @@ export default class GaleriWebPartWebPart extends BaseClientSideWebPart<IGaleriW
             <div class="overlap-group4">
               <div class="rectangle-9"></div>
               <div class="group-43">
-                <div class="next-galeri"><img class="vector-2" src="${require('./img/vector-2-2.svg')}" alt="Vector 2" /></div>
                 <div class="next-galeri"><img class="vector-2" src="${require('./img/vector-2-3.svg')}" alt="Vector 2" /></div>
+                <div class="next-galeri"><img class="vector-2" src="${require('./img/vector-2-2.svg')}" alt="Vector 2" /></div>
               </div>
               <div class="video-head">
                 <img class="line-1" src="${require('./img/line-1-1.svg')}" alt="Line 1" />
